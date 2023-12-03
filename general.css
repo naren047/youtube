@@ -1,0 +1,30 @@
+body{
+    font-family:Roboto,Arial;
+    margin:0;
+    background-color: #0f0f0f;
+    color:#fff;
+}
+p{
+    margin:0;
+}
+@media (max-width:700px){
+    body{
+        padding:75px 8% 40px 8%;
+    }
+}
+@media (min-width:701px) and (max-width:790px){
+    body{
+        padding:75px 40px 40px 40px;
+    }
+}
+@media (min-width:791px) and (max-width:1300px){
+    body{
+        padding:75px 40px 40px 100px;
+    }
+}
+@media (min-width:1300px){
+    body{
+        padding:75px 40px 40px 265px;
+    }
+}
+
