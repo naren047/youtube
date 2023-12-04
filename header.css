@@ -8,7 +8,17 @@
     background-color: #0f0f0f;
 }
 
-@media (max-width:790px){
+@media (max-width:460px){
+    .mic,.right-section input,.righticons{
+        position:absolute;
+        opacity:0;
+    }
+    .search{
+        background-color:#0f0f0f;
+        border:none;
+    }
+}
+@media (min-width:461px) and (max-width:790px){
     .right-section input{
         display: none;
     }
